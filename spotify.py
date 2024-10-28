@@ -1006,8 +1006,8 @@ class SpotifyMod(loader.Module):
                 f' href="https://open.spotify.com/playlist/{playlist_id}">{playlist_name}</a>'
                 if playlist_name and playlist_id
                 else ""
-                result += (
             )
+            result += (
                 "\n<emoji document_id=5467406098367521267>👑</emoji>"
                 f" <b>{self.strings('owner')}</b>: {playlist_owner}"
                 if playlist_owner
