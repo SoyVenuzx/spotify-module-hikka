@@ -1023,7 +1023,7 @@ class SpotifyMod(loader.Module):
 
         message = await utils.answer(
             message,
-            result.format(is_flac="")
+            result.format(is_flac=""),
             # + "\n\n<emoji document_id=5325617665874600234>🕔</emoji> <i>Loading audio"
             # " file...</i>",
         )
